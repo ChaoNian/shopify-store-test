@@ -147,7 +147,7 @@
       {% comment %} Copyright {% endcomment %}
       <p>
         <span>&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url }}</span>
-        <span>{{ powered_by_link }}</span>
+        {% comment %} <span>{{ powered_by_link }}</span> {% endcomment %}
       </p>
     </div>
   </div>
